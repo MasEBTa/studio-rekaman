@@ -344,3 +344,5 @@ Sebuah band yang sudah terdaftar bisa melakukan booking jadwal yang masih kosong
     ==============================================
     ```
 
+### Video Contoh Penggunaan
+    ![video youtube](https://www.youtube.com/embed/KHfZ8EWLaNs)
