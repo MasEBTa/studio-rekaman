@@ -1,11 +1,11 @@
-# challenge-godb
+# studio-room
 
 ## Daftar Isi
-1. [Judul: studio-music](https://git.enigmacamp.com/enigma-20/muhammad-sholikhul-ebta/challenge-godb/-/tree/master?ref_type=heads#challenge-godb-studio-music)
-2. [Petunjuk Instalasi](https://git.enigmacamp.com/enigma-20/muhammad-sholikhul-ebta/challenge-godb/-/tree/master?ref_type=heads#installation)
-3. [Petunjuk Penggunaan](https://git.enigmacamp.com/enigma-20/muhammad-sholikhul-ebta/challenge-godb/-/tree/master?ref_type=heads#usage)
+1. [Judul: studio-room](https://github.com/MasEBTa/studio-rekaman/tree/version1#challenge-godb--studio-music)
+2. [Petunjuk Instalasi](https://github.com/MasEBTa/studio-rekaman/tree/version1#installation)
+3. [Petunjuk Penggunaan](https://github.com/MasEBTa/studio-rekaman/tree/version1#usage)
 
-    a. [Interaksi Dengan Band](https://git.enigmacamp.com/enigma-20/muhammad-sholikhul-ebta/challenge-godb/-/tree/master?ref_type=heads#interaksi-dengan-band)
+    a. [Interaksi Dengan Band](https://github.com/MasEBTa/studio-rekaman/tree/version1#interaksi-dengan-band)
 
         - Menambah Band
 
@@ -15,7 +15,7 @@
 
         - Update data band
 
-    b. [Interaksi Dengan Alat Musik](https://git.enigmacamp.com/enigma-20/muhammad-sholikhul-ebta/challenge-godb/-/tree/master?ref_type=heads#interaksi-dengan-instrumentalat-musik)
+    b. [Interaksi Dengan Alat Musik](https://github.com/MasEBTa/studio-rekaman/tree/version1#interaksi-dengan-instrumentalat-musik)
 
         - Menambah Instrument
 
@@ -23,19 +23,19 @@
 
         - Menghapus Instrument
 
-    c. [Booking Jadwal](https://git.enigmacamp.com/enigma-20/muhammad-sholikhul-ebta/challenge-godb/-/tree/master?ref_type=heads#booking-jadwal)
+    c. [Booking Jadwal](https://github.com/MasEBTa/studio-rekaman/tree/version1#booking-jadwal)
 
         - Booking Jadwal
 
         - Menampilkan *Booked* Jadwal
 4. [Tutorial Penggunaan](https://www.youtube.com/embed/KHfZ8EWLaNs)
 
-## challenge-godb : Studio Music
+## Studio Music room
 Projek ini merupakan sebuah aplikasi sederhana dengan golang. aplikasi golang ini digunakan untuk memanipulasi database yang digunakan untuk sebuah studio music yang disewakan. jadi akan ada 2 buah ruangan studio yang di sewakan selama 1 jam setip hari.
 
 ## Installation
 Untuk menjalankan aplikasi ini :
-- [ ] [Buka file connectDb.go pada directory database lalu isikan data database yang digunakan.](https://git.enigmacamp.com/enigma-20/muhammad-sholikhul-ebta/challenge-godb/-/blob/531673039c6a76a5851b14d97d2647c2ce9ad78b/database/connectDb.go)
+- [ ] [Buka file connectDb.go pada directory database lalu isikan data database yang digunakan.](https://github.com/MasEBTa/studio-rekaman/blob/8c8d02d710fac25b14b62446b12be02742d70af7/database/connectDb.go)
     ```
       const (
         host     = "localhost" // default
@@ -45,12 +45,12 @@ Untuk menjalankan aplikasi ini :
         dbname   = "studio" // sesuaikan
       )
     ```
-- [ ] [Jalankan Query yang ada pada file DDL.sql](https://git.enigmacamp.com/enigma-20/muhammad-sholikhul-ebta/challenge-godb/-/blob/master/DDL.sql)
-- [ ] [Jalankan Query yang ada pada file DML-default.sql untuk mengisi data default di database.](https://git.enigmacamp.com/enigma-20/muhammad-sholikhul-ebta/challenge-godb/-/blob/master/DML-default.sql)
+- [ ] [Jalankan Query yang ada pada file DDL.sql](https://github.com/MasEBTa/studio-rekaman/blob/8c8d02d710fac25b14b62446b12be02742d70af7/DDL.sql)
+- [ ] [Jalankan Query yang ada pada file DML-default.sql untuk mengisi data default di database.](https://github.com/MasEBTa/studio-rekaman/blob/8c8d02d710fac25b14b62446b12be02742d70af7/DML-default.sql)
 - [ ] Jalankan `go run main.go makeSchedule` untuk membuat jadwal kosong dari studio.
 
 ## Usage
-Setelah melakukan Instalasi ada beberapa hal yang dapat dilakukan. Berbagai perintah yang ada di bawah ini ada pada file [main](https://git.enigmacamp.com/enigma-20/muhammad-sholikhul-ebta/challenge-godb/-/blob/master/main.go).
+Setelah melakukan Instalasi ada beberapa hal yang dapat dilakukan. Berbagai perintah yang ada di bawah ini ada pada file [main](https://github.com/MasEBTa/studio-rekaman/blob/8c8d02d710fac25b14b62446b12be02742d70af7/main.go).
 
 ### Interaksi dengan Band
 Ada beberapa hal yang bisa dilakukan untuk berinteraksi dengan tabel band dan instrument.
