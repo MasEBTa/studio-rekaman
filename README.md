@@ -26,8 +26,9 @@
     c. [Booking Jadwal](https://git.enigmacamp.com/enigma-20/muhammad-sholikhul-ebta/challenge-godb/-/tree/master?ref_type=heads#booking-jadwal)
 
         - Booking Jadwal
-        
+
         - Menampilkan *Booked* Jadwal
+4. [Tutorial Penggunaan](https://www.youtube.com/embed/KHfZ8EWLaNs)
 
 ## challenge-godb : Studio Music
 Projek ini merupakan sebuah aplikasi sederhana dengan golang. aplikasi golang ini digunakan untuk memanipulasi database yang digunakan untuk sebuah studio music yang disewakan. jadi akan ada 2 buah ruangan studio yang di sewakan selama 1 jam setip hari.
@@ -345,4 +346,7 @@ Sebuah band yang sudah terdaftar bisa melakukan booking jadwal yang masih kosong
     ```
 
 ### Video Contoh Penggunaan
-    ![video youtube](https://www.youtube.com/embed/KHfZ8EWLaNs)
+
+  Tutorial Penggunaan
+
+  ![Video YouTube](https://www.youtube.com/embed/KHfZ8EWLaNs)
