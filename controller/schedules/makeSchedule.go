@@ -3,8 +3,8 @@ package controller
 import (
 	"database/sql"
 	"fmt"
-	"tugas-akhir-enigmacamp-go/controller"
-	"tugas-akhir-enigmacamp-go/database"
+	"studio-room/controller"
+	"studio-room/database"
 )
 
 func CreteSchedule() {

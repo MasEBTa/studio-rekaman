@@ -7,9 +7,9 @@ import (
 	"os"
 	"strconv"
 	"strings"
-	"tugas-akhir-enigmacamp-go/controller"
-	"tugas-akhir-enigmacamp-go/database"
-	"tugas-akhir-enigmacamp-go/entity"
+	"studio-room/controller"
+	"studio-room/database"
+	"studio-room/entity"
 )
 
 func UpdateInstruentBandUI() {
@@ -127,8 +127,10 @@ func TambahInstrument(instrument []entity.InstrumentAndTotal, tx *sql.Tx, bandId
 		}
 
 		var newData []int
-
-		if len(instrument) != 0 {
+		if len(selectedInstruments) == 1 {
+			newData = selectedInstruments
+		}
+		if len(instrument) > 0 {
 			for _, v := range selectedInstruments {
 				for _, w := range instruments {
 					if v == w.Id {
@@ -141,7 +143,7 @@ func TambahInstrument(instrument []entity.InstrumentAndTotal, tx *sql.Tx, bandId
 				}
 			}
 		} else {
-			newData = append(newData, selectedInstruments...)
+			newData = selectedInstruments
 		}
 
 		// jumlah instrumen

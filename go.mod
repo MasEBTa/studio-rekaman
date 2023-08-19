@@ -1,4 +1,4 @@
-module tugas-akhir-enigmacamp-go
+module studio-room
 
 go 1.20
 

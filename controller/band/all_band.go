@@ -3,9 +3,9 @@ package controller
 import (
 	"database/sql"
 	"fmt"
-	"tugas-akhir-enigmacamp-go/controller"
-	"tugas-akhir-enigmacamp-go/database"
-	"tugas-akhir-enigmacamp-go/entity"
+	"studio-room/controller"
+	"studio-room/database"
+	"studio-room/entity"
 )
 
 /*

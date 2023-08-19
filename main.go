@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	band "tugas-akhir-enigmacamp-go/controller/band"
-	schedule "tugas-akhir-enigmacamp-go/controller/schedules"
+	band "studio-room/controller/band"
+	schedule "studio-room/controller/schedules"
 
 	_ "github.com/lib/pq" // Impor driver PostgreSQL
 )

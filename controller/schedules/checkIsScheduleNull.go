@@ -3,7 +3,7 @@ package controller
 import (
 	"database/sql"
 	"fmt"
-	"tugas-akhir-enigmacamp-go/database"
+	"studio-room/database"
 )
 
 func CheckIsScheduleNull() int {

@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"os"
 	"strconv"
+	"studio-room/controller"
+	band "studio-room/controller/band"
+	"studio-room/database"
+	"studio-room/entity"
 	"time"
-	"tugas-akhir-enigmacamp-go/controller"
-	band "tugas-akhir-enigmacamp-go/controller/band"
-	"tugas-akhir-enigmacamp-go/database"
-	"tugas-akhir-enigmacamp-go/entity"
 )
 
 func ScheduleInterface() {

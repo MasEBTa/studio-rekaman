@@ -2,7 +2,7 @@ package controller
 
 import (
 	"fmt"
-	"tugas-akhir-enigmacamp-go/database"
+	"studio-room/database"
 )
 
 func JadwalTerisiUi() {
